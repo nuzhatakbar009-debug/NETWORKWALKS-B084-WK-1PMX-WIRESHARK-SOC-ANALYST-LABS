@@ -104,7 +104,7 @@ Result: 100/100 Marks
 
 
 ---
-![]()
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%204%20Result%20-%20Nuzhat.png)
 Lab 04 – Follow TCP Stream
 
 Objective: Investigate TCP communication and extract relevant information from captured network traffic.
