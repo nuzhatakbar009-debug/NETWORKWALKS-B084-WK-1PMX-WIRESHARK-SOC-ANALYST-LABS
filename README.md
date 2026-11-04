@@ -248,152 +248,113 @@ Result: 100/100 Marks
 
 ---
 
-## Step 2. Install VirtualBox
+🛠️ Tools & Technologies
 
-VirtualBox was installed as the hypervisor.
+Tool
 
----
+Purpose
 
-## Step 3. Create the NAT Network
+Wireshark
 
-A dedicated NAT Network was created in VirtualBox.
+Network packet analysis
 
-Configuration:
-Network Name: NatNetwork
-IPv4 Prefix:  10.0.0.0/24
-DHCP:         Enabled
-IPv6:         Disabled
+TCP/IP
 
-![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PM-1CYBERSECURITY-LAB-SETUP/blob/main/2nd%20screenshot%20-network%20setting.PNG)
+Network communication analysis
 
-A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+HTTP
 
-This will allow future attacker and target VMs to communicate within the lab.
+Web traffic investigation
 
+VoIP
 
----
+Voice communication analysis
 
-## Step 4. Import Kali Linux
+Network Filters
 
-The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+Traffic filtering
 
-The VM network adapter was configured as follows:
+PCAP Analysis
 
-```text
-Adapter 1
-Attached to: NAT Network
-Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
-```
+Network forensics
 
-The VM was allocated:
+🧠 Skills Developed
 
-```text
-RAM: 2048 MB
-```
-![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PM-1CYBERSECURITY-LAB-SETUP/blob/main/3rd%20screenshot-kali-linux.PNG)
-A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
+Network Traffic Analysis
 
+Packet Inspection
 
+TCP Stream Analysis
 
----
+IP Address Identification
 
-## Step 5. Configure the Kali Linux Network
+Port Scanning Detection
 
-The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+HTTP Traffic Investigation
 
-Example configuration:
+Brute Force Detection
 
-```text
-IP Address: 10.0.0.2
-Subnet Mask: 255.255.255.0
-Gateway: 10.0.0.1
-DNS: 8.8.8.8
-```
+Authentication Analysis
 
-A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+VoIP Traffic Investigation
 
-![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PM-1CYBERSECURITY-LAB-SETUP/blob/main/4th%20%20screenshot-kali-network-setting.PNG)
+SOC Monitoring Fundamentals
 
----
+Network Forensics
 
-🔎## Step 6. Create a Clean VM Snapshot
+🏆 Achievement
 
-After completing the initial configuration, a VirtualBox snapshot was created.
+Completed six practical Wireshark SOC laboratory exercises with outstanding results.
 
-Example snapshot name:
+Lab
 
-```text
-Clean Kali - Network Setup
-```
+Topic
 
-The snapshot represents the clean baseline of the laboratory.
+Score
 
-If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+Lab 03
 
+Identify the Attacker's IP
 
----
+100/100
 
-# 🔎 Lab Verification
+Lab 04
 
-| ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
-| ----------------------------- | ------------------------------- | ------------------------------- |
-| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
-| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
-| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
-| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
-| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
-| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
+Follow TCP Stream
 
-### Example Results
+100/100
 
-```text
-IP Address:
-10.0.0.2/24
+Lab 05
 
-Gateway:
-10.0.0.1
+Follow TCP Stream – Part 2
 
-DNS:
-8.8.8.8
-```
+100/100
 
----
+Lab 06
 
-# 🐞 Problems Encountered & Solutions
+HTTP Plaintext Credentials
 
-Documenting problems is an important part of the project.
+100/100
 
-## Problem 1. Internet Connectivity After Static IP Configuration
+Lab 07
 
-After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
+Brute Force Detection
 
-One workaround used during this lab was:
+100/100
 
-```bash
-sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
-```
+Lab 08
 
-The network connection was then restarted/rebooted and connectivity was tested again.
+VoIP Call Replay
 
-> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
+100/100
 
----
+Total: 600/600 Marks – 100%
 
-## Problem 2. VirtualBox VT-x / Virtualization Error
+🔐 Security & Ethical Use
 
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
+This project is intended for educational and authorized cybersecurity training purposes only.
 
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
+All packet analysis and investigation activities should be performed on authorized lab traffic. Sensitive credentials, personal information, and private packet captures should never be published publicly.
 
 
 ---
