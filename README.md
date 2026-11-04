@@ -18,12 +18,12 @@
 ---
 
 ## 📌 Project Overview
+This project documents my hands-on experience with Wireshark through practical SOC (Security Operations Center) laboratory exercises.
 
-This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
+The labs focus on network traffic analysis, TCP stream investigation, identifying suspicious network activity, detecting brute-force attempts, analyzing HTTP traffic, and investigating VoIP communications.
 
-The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
+Through these exercises, I developed practical skills in examining network packets, identifying communication patterns, and understanding potential security threats.
 
-The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
 
 ---
 
