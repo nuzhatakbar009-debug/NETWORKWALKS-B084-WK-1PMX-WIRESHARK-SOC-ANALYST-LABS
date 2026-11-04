@@ -214,7 +214,7 @@ Result: 100/100 Marks
 
 
 ---
-![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%206%20Result%20-%20Nuzhat.png)
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%208%20Result%20-%20Nuzhat.png)
 
 Lab 08 – VoIP Call Replay
 
