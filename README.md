@@ -159,6 +159,34 @@ Result: 100/100 Marks
 
 
 ---
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%205%20Result%20-%20Nuzhat.png)
+Lab 06 – HTTP Plaintext Credentials
+
+Objective: Understand how unencrypted HTTP traffic can expose sensitive authentication information.
+
+Tasks:
+
+Identify the communication protocol.
+
+Investigate the authentication method.
+
+Locate the login page.
+
+Identify the computer that signed in.
+
+Analyze login attempts.
+
+Identify usernames and passwords in the captured traffic.
+
+Examine packet details.
+
+Understand security improvements.
+
+Result: 100/100 Marks
+
+
+
+---
 
 # 🪜 Lab Setup Procedure
 
