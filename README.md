@@ -75,7 +75,30 @@ Developing fundamental SOC Analyst and network forensic investigation skills.
 
 ## 🏗️ Lab Architecture
 
-![](1-screenshot.PNG)
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/commit/f10ce128508045e94771344d6b3ad84270cb3437#diff-1cce0f17503a38b5638c2ca0babe75726552556fc119c2f9796a919d2933a4e1)
+Lab 03 – Identify the Attacker's IP
+
+Objective: Identify the attacker's IP address by analyzing captured network traffic.
+
+Tasks:
+
+Capture network traffic.
+
+Filter SYN packets.
+
+Identify the attacker.
+
+Identify the target.
+
+Investigate source ports.
+
+Identify probed and open ports.
+
+Analyze closed-port responses.
+
+Determine the attack type.
+
+Result: 100/100 Marks
 
 
 
