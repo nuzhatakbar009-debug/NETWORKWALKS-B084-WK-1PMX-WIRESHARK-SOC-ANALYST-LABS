@@ -131,7 +131,7 @@ Result: 100/100 Marks
 
 
 ---
-![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%204%20Result%20-%20Nuzhat.png)
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%205%20Result%20-%20Nuzhat.png)
 Lab 05 – Follow TCP Stream (Part 2)
 
 Objective: Investigate TCP streams to identify hidden information and understand web communication.
