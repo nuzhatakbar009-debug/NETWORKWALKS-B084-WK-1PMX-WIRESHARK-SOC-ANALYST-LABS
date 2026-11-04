@@ -187,6 +187,58 @@ Result: 100/100 Marks
 
 
 ---
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%206%20Result%20-%20Nuzhat.png)
+Lab 07 – Brute Force Detection
+
+Objective: Investigate authentication traffic and identify potential brute-force attacks.
+
+Tasks:
+
+Identify the protocol.
+
+Determine the target and attacker.
+
+Identify the username.
+
+Analyze failed login attempts.
+
+Examine failure and success response codes.
+
+Identify the password that worked in the lab capture.
+
+Determine the attack type.
+
+Result: 100/100 Marks
+
+
+
+
+---
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%206%20Result%20-%20Nuzhat.png)
+
+Lab 08 – VoIP Call Replay
+
+Objective: Investigate VoIP network traffic and understand voice communication protocols.
+
+Tasks:
+
+Identify the call setup protocol.
+
+Identify the voice protocol.
+
+Find the caller extension and name.
+
+Analyze the codec.
+
+Determine who answered the call.
+
+Investigate call-related information.
+
+Understand the security implications of VoIP traffic.
+
+Result: 100/100 Marks
+
+---
 
 # 🪜 Lab Setup Procedure
 
