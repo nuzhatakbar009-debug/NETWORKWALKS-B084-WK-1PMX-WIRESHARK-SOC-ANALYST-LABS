@@ -252,7 +252,7 @@ Result: 100/100 Marks
 
 Tool                          Purpose
 
-Wireshark                    Network packet analysis
+Wireshark                  |  Network packet analysis
 
 TCP/IP                       Network communication analysis
 
@@ -292,19 +292,7 @@ Network Forensics
 
 
 ---
-🏆 Achievement
 
-Completed six practical Wireshark SOC laboratory exercises with outstanding results.
-
-Lab                                       Topic                                Score
-Lab 03                              Identify the Attacker's IP                  100/100
-Lab 04                               Follow TCP Stream                          100/100
-Lab 05                              Follow TCP Stream – Part 2                  100/100
-Lab 06                             HTTP Plaintext Credentials                   100/100
-Lab 07                             Brute Force Detection                        100/100
-Lab 08                              VoIP Call Replay                             100/100
-Total: 600/600 Marks – 100%
----
 
 🔐 Security & Ethical Use
 
