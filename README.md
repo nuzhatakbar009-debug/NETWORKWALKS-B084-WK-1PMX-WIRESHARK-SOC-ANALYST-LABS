@@ -31,16 +31,21 @@ Through these exercises, I developed practical skills in examining network packe
 ## 🎯 Objectives
 
 The main objectives of this project are to:
+Understand network traffic and packet analysis.
 
-- Install and configure VirtualBox.
-- Install/import Kali Linux as a virtual machine.
-- Create a private **NAT Network** for the cybersecurity lab.
-- Configure network connectivity for Kali Linux.
-- Assign a consistent IP address to the Kali VM.
-- Verify network connectivity and DNS resolution.
-- Take a clean VM snapshot for recovery.
-- Document the complete setup process.
-- Prepare the environment for future cybersecurity projects.
+Identify attacker and target IP addresses.
+
+Analyze TCP connections and follow TCP streams.
+
+Investigate HTTP communication and plaintext credentials.
+
+Detect brute-force login attempts.
+
+Analyze VoIP call setup and communication.
+
+Identify suspicious network activities.
+
+Develop practical SOC analyst investigation skills.
 
 ---
 
