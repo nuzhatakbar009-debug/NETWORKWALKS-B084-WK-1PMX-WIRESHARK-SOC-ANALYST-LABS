@@ -242,11 +242,9 @@ Result: 100/100 Marks
 
 # 🪜 Lab Setup Procedure
 
-## Step 1. Install 7-Zip
+## Step 1. Install Wire-Shark
 
-7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
-
-**Tool:** 7-Zip
+**Tool:** https://2.na.dl.wireshark.org/win64/Wireshark-4.6.9-x64.exe?_gl=1*1r0e1nw*_gcl_au*ODgwMjI1NzUwLjE3OTM1NTQzMzE.*_ga*MTA3NjM5MTg0Ni4xNzkzNTU0MzE4*_ga_YLHRKD6LH6*czE3OTM3ODc3ODgkbzIkZzEkdDE3OTM3ODc3OTAkajU4JGwwJGgw
 
 ---
 
