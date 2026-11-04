@@ -252,17 +252,17 @@ Result: 100/100 Marks
 
 Tool                          Purpose
 
-Wireshark                  |  Network packet analysis
+Wireshark                  ||  Network packet analysis
 
-TCP/IP                       Network communication analysis
+TCP/IP                      || Network communication analysis
 
-HTTP                        Web traffic investigation
+HTTP                       || Web traffic investigation
 
-VoIP                        Voice communication analysis
+VoIP                        || Voice communication analysis
 
-Network Filters              Traffic filtering
+Network Filters             || Traffic filtering
 
-PCAP Analysis                Network forensics
+PCAP Analysis               || Network forensics
 
 
 ---
@@ -290,10 +290,87 @@ SOC Monitoring Fundamentals
 
 Network Forensics
 
-
 ---
 
+# 💡 What I Learned
 
+Through these hands-on Wireshark SOC labs, I gained practical knowledge of network traffic analysis, packet inspection, and cybersecurity investigation.
+
+The key concepts and skills I learned include:
+
+1. Network Traffic Analysis
+
+Learned how to capture and analyze network packets using Wireshark.
+
+Understood how devices communicate over a network.
+
+Learned to apply display filters to identify specific traffic.
+
+2. Attacker IP Identification
+
+Learned how to identify attacker and target IP addresses.
+
+Analyzed TCP SYN packets to understand connection attempts.
+
+Identified source ports, destination ports, open ports, and closed ports.
+
+Gained an understanding of network reconnaissance and port scanning.
+
+3. TCP Stream Analysis
+
+Learned how to follow TCP streams to reconstruct network conversations.
+
+Identified communication between different hosts.
+
+Extracted relevant information from captured TCP traffic.
+
+Understood how TCP stream analysis helps in network investigations.
+
+4. HTTP Traffic & Credential Analysis
+
+Learned how HTTP requests and responses work.
+
+Identified login requests and authentication information in unencrypted traffic.
+
+Understood the security risks of transmitting sensitive information over plaintext HTTP.
+
+Learned why HTTPS is important for protecting user credentials.
+
+5. Brute Force Attack Detection
+
+Learned how to investigate repeated login attempts.
+
+Identified failed and successful authentication responses.
+
+Analyzed suspicious login patterns.
+
+Understood how SOC analysts can detect potential brute-force attacks.
+
+6. VoIP Traffic Analysis
+
+Learned about SIP and RTP protocols.
+
+Analyzed VoIP call setup and communication.
+
+Identified caller information, call responses, and audio codecs.
+
+Understood potential security risks associated with unprotected VoIP traffic.
+
+7. SOC Analyst Investigation Skills
+
+Improved my ability to investigate suspicious network activity.
+
+Developed practical packet analysis and network forensics skills.
+
+Learned how to identify potential indicators of compromise (IOCs).
+
+Improved my understanding of network security monitoring and threat detection.
+
+💡 Key Takeaway
+
+These practical exercises strengthened my understanding of how Wireshark is used in real-world cybersecurity investigations. I gained hands-on experience in identifying suspicious network traffic, analyzing communication protocols, and understanding common attack techniques from a SOC Analyst perspective.
+
+---
 🔐 Security & Ethical Use
 
 This project is intended for educational and authorized cybersecurity training purposes only.
@@ -301,55 +378,7 @@ This project is intended for educational and authorized cybersecurity training p
 All packet analysis and investigation activities should be performed on authorized lab traffic. Sensitive credentials, personal information, and private packet captures should never be published publicly.
 
 
----
 
-# 💡 What I Learned
-
-Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
-
-The most important concepts I learned include:
-
-### 1. NAT vs NAT Network
-
-A standard NAT configuration and a NAT Network serve different purposes.
-
-A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
-
-This makes it useful for building a multi-machine cybersecurity laboratory.
-
-### 2. Virtual Machine Networking
-
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
-
-### 3. Static IP Configuration
-
-I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
-
-### 4. VM Snapshots
-
-I learned that a clean snapshot should be created **before performing risky or experimental activities**.
-
-This provides a known-good recovery point for future cybersecurity exercises.
-
-### 5. Documentation
-
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
-
----
-
-# 🔐 Security & Ethical Use
-
-This laboratory is intended strictly for education purposes only.
-
----
-
-# 🔗 Tools & Resources
-
-- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
-- **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
-- **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
-
----
 
 # 👤 Author
 
@@ -361,5 +390,5 @@ LinkedIn: [https://www.linkedin.com/in/nuzhat-akbar-a17963289)
 ---
 
 ## 📌 Project Information
-Program Name: Cybersecurity internship  at Networkwalks|Week:01|Project 1: Lab Setup Virtualbox & KaliLinux
-| 🌍 DNS Server | 8.8.8.8 | | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+Program Name: Cybersecurity internship  at Networkwalks|Week:01|Extra WireShark Project 1: Lab Setup Virtualbox & KaliLinux
+
