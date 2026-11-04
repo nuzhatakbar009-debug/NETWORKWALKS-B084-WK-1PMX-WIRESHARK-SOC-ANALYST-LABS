@@ -252,17 +252,17 @@ Result: 100/100 Marks
 
 Tool                          Purpose
 
-Wireshark                  ||  Network packet analysis
+Wireshark           ||   Network packet analysis
 
-TCP/IP                      || Network communication analysis
+TCP/IP               ||   Network communication analysis
 
-HTTP                       || Web traffic investigation
+HTTP                 ||   Web traffic investigation
 
-VoIP                        || Voice communication analysis
+VoIP                 ||  Voice communication analysis
 
-Network Filters             || Traffic filtering
+Network Filters      ||  Traffic filtering
 
-PCAP Analysis               || Network forensics
+PCAP Analysis        ||  Network forensics
 
 
 ---
@@ -390,5 +390,7 @@ LinkedIn: [https://www.linkedin.com/in/nuzhat-akbar-a17963289)
 ---
 
 ## 📌 Project Information
-Program Name: Cybersecurity internship  at Networkwalks|Week:01|Extra WireShark Project 1: Lab Setup Virtualbox & KaliLinux
+Program Name: Cybersecurity internship  at Networkwalks
+|Week:01| Extra WireShark Project1: Wireshark – SOC Analyst Practical Labs
+Domain | Cybersecurity / Network Security
 
