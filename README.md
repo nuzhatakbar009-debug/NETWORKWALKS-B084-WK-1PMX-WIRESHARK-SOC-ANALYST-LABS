@@ -131,6 +131,34 @@ Result: 100/100 Marks
 
 
 ---
+![](https://github.com/nuzhatakbar009-debug/NETWORKWALKS-B084-WK-1PMX-WIRESHARK-SOC-ANALYST-LABS/blob/main/Lab%204%20Result%20-%20Nuzhat.png)
+Lab 05 – Follow TCP Stream (Part 2)
+
+Objective: Investigate TCP streams to identify hidden information and understand web communication.
+
+Tasks:
+
+Locate relevant web pages.
+
+Identify hidden information.
+
+Find the relevant TCP stream.
+
+Identify a code word.
+
+Investigate backup server communication.
+
+Determine communication direction.
+
+Analyze HTTP status codes.
+
+Identify downloaded files and report information.
+
+Result: 100/100 Marks
+
+
+
+---
 
 # 🪜 Lab Setup Procedure
 
