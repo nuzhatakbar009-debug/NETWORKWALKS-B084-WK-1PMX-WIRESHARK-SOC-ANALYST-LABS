@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Penetration%20Testing-C00000?style=flat-
   <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/GitHub Profile-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+   <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
     <img src="https://img.shields.io/badge/WireShark-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
