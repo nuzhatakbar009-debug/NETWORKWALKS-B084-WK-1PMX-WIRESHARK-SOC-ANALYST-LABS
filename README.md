@@ -250,34 +250,22 @@ Result: 100/100 Marks
 
 🛠️ Tools & Technologies
 
-Tool
+Tool                          Purpose
 
-Purpose
+Wireshark                    Network packet analysis
 
-Wireshark
+TCP/IP                       Network communication analysis
 
-Network packet analysis
+HTTP                        Web traffic investigation
 
-TCP/IP
+VoIP                        Voice communication analysis
 
-Network communication analysis
+Network Filters              Traffic filtering
 
-HTTP
+PCAP Analysis                Network forensics
 
-Web traffic investigation
 
-VoIP
-
-Voice communication analysis
-
-Network Filters
-
-Traffic filtering
-
-PCAP Analysis
-
-Network forensics
-
+---
 🧠 Skills Developed
 
 Network Traffic Analysis
@@ -302,53 +290,21 @@ SOC Monitoring Fundamentals
 
 Network Forensics
 
+
+---
 🏆 Achievement
 
 Completed six practical Wireshark SOC laboratory exercises with outstanding results.
 
-Lab
-
-Topic
-
-Score
-
-Lab 03
-
-Identify the Attacker's IP
-
-100/100
-
-Lab 04
-
-Follow TCP Stream
-
-100/100
-
-Lab 05
-
-Follow TCP Stream – Part 2
-
-100/100
-
-Lab 06
-
-HTTP Plaintext Credentials
-
-100/100
-
-Lab 07
-
-Brute Force Detection
-
-100/100
-
-Lab 08
-
-VoIP Call Replay
-
-100/100
-
+Lab                                       Topic                                Score
+Lab 03                              Identify the Attacker's IP                  100/100
+Lab 04                               Follow TCP Stream                          100/100
+Lab 05                              Follow TCP Stream – Part 2                  100/100
+Lab 06                             HTTP Plaintext Credentials                   100/100
+Lab 07                             Brute Force Detection                        100/100
+Lab 08                              VoIP Call Replay                             100/100
 Total: 600/600 Marks – 100%
+---
 
 🔐 Security & Ethical Use
 
