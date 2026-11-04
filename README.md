@@ -51,19 +51,25 @@ Develop practical SOC analyst investigation skills.
 
 ## 🛡️ Purpose of the Lab
 
-The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
+The purpose of this lab is to develop practical skills in network traffic analysis and cybersecurity investigation using Wireshark.
 
-It can be used for activities such as:
+Through these hands-on exercises, the objective is to understand how network communication works, analyze captured packets, identify suspicious activities, and investigate potential cyberattacks.
 
-- Network reconnaissance
-- Port scanning
-- Vulnerability assessment
-- Packet analysis
-- Web security testing
-- Exploitation practice
-- Security-tool experimentation
+The lab focuses on:
 
-⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
+Identifying attacker and target IP addresses.
+
+Analyzing TCP connections and following TCP streams.
+
+Investigating network communication and hidden information.
+
+Understanding the security risks of plaintext HTTP credentials.
+
+Detecting brute-force login attempts and suspicious authentication activities.
+
+Analyzing VoIP communication using SIP and RTP protocols.
+
+Developing fundamental SOC Analyst and network forensic investigation skills.
 
 ---
 
