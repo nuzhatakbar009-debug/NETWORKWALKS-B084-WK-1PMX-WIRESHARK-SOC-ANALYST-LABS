@@ -104,6 +104,33 @@ Result: 100/100 Marks
 
 
 ---
+![]()
+Lab 04 – Follow TCP Stream
+
+Objective: Investigate TCP communication and extract relevant information from captured network traffic.
+
+Tasks:
+
+Capture network traffic.
+
+Identify the chat port.
+
+Determine who initiated the conversation.
+
+Identify the TCP stream number.
+
+Analyze chat data.
+
+Identify the person requiring help.
+
+Investigate temporary and guest Wi-Fi passwords.
+
+Result: 100/100 Marks
+
+
+
+
+---
 
 # 🪜 Lab Setup Procedure
 
